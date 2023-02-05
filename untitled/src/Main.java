@@ -6,9 +6,13 @@ public class Main {
 
     car.marca = "Porsche";
     car.modelo="Cayenne";
+    car.capCombustivel = 50.0;
+    car.consumoCombustivel= 3.0;
 
     car.exibirDados();
 
+
+    System.out.println("A autonomia deste carro é: " + car.exibirAutonomia()+".");
 
 
     }

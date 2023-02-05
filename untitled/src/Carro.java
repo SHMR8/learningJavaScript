@@ -9,4 +9,8 @@ public class Carro {
     void exibirDados(){
       System.out.println("o carro é um: "+marca+" modelo: "+modelo+".");
     }
+
+    double exibirAutonomia(){
+        return capCombustivel*consumoCombustivel;
+    }
 }
