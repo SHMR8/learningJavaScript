@@ -13,4 +13,8 @@ public class Carro {
     double exibirAutonomia(){
         return capCombustivel*consumoCombustivel;
     }
+
+    double calcularConsumo (int km){
+        return consumoCombustivel*km;
+    }
 }

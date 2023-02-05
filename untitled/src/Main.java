@@ -14,6 +14,6 @@ public class Main {
 
     System.out.println("A autonomia deste carro é: " + car.exibirAutonomia()+".");
 
-
+    System.out.println("Para andar 10km ele gastará: "+car.calcularConsumo(10)+"Litros de gasosa.");
     }
 }
