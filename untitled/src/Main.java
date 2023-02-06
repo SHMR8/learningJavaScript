@@ -2,16 +2,14 @@
 public class Main {
     public static void main(String[] args) {
 
-    Lampada luz = new Lampada();
-    luz.modelo = "De sala";
-    luz.tipo = "Das grandes";
-    luz.voltagem= 220;
-    boolean satus = luz.acenderApagar("sm");
+         String marca="Ferrari";
+         String modelo="Berlinetta";
+         int velocidadeMaxima=550;
+         int ano=2024;
 
-    if (satus){
-        System.out.println("Luz acesa papae!");
-    }else {
-        System.out.println("Apagada!");
-    }
-    }
+         Carro minhaFerrari = new Carro(marca,modelo,velocidadeMaxima,ano);
+
+        System.out.println("A marca do carro é : "+minhaFerrari.marca);
+   }
 }
+
