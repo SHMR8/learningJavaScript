@@ -7,7 +7,7 @@ public class Main {
      meuPorsche.maxVelocity(550);*/
 
     MinhaCalculadora calc = new MinhaCalculadora();
-    
+
 
     System.out.println(calc.soma(2,3));
 
