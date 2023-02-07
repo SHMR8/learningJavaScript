@@ -1,12 +1,12 @@
 package application;
-import entities.Contador;
+import entities.Recursive;
 
 import java.util.Scanner;
 public class Program {
     public static void main(String[] args) {
     Scanner rd = new Scanner(System.in);
 
-    Contador.cont(10);
+    System.out.println(Recursive.contador(5));
 
 
     rd.close();
